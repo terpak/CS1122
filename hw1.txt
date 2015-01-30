@@ -1,4 +1,4 @@
-1. What command can be used to display the manual page of any bash command, how do you
+﻿1. What command can be used to display the manual page of any bash command, how do you
 search the manual page, and how do you leave the manual page?
 man [command] ; Use arrow keys to scroll ; hit Q
 
@@ -37,3 +37,12 @@ echo "some new text" >> file.txt
 
 12. How would you display running processes?
 ps aux
+
+13. How would you kill a running command?
+ctrl + c
+
+14. How would you delete a file?
+rm [filename]
+
+15. Why wouldn’t you want to run rm ­rf /. Do not actually try to run this command.
+It deletes every single file on the system that isn't being actively used by a process (so basically everything)
