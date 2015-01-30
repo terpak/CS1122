@@ -1,0 +1,39 @@
+1. What command can be used to display the manual page of any bash command, how do you
+search the manual page, and how do you leave the manual page?
+man [command] ; Use arrow keys to scroll ; hit Q
+
+2. What are dot files?
+Files hidden by default from the UNIX operating system
+
+3. What command would you use to list all the files in a directory including dot files?
+ls -a
+
+4. What’s a log file?
+A log file is a file that contains records of events that a program uses in order to provide a history of errors, notifications, connections, etc.
+
+5. Say you have a giant log file (5 million lines), how would you view lines at the top of the file
+and the bottom of the file without opening it in a text editor? Also how would you watch the file
+for modifications?
+head [filename] ; tail [filename] ; tail -f [filename]
+
+6. How would you view text files in a terminal?
+emacs, vi, nano, cat
+
+7. How would you search a directory for all the instances of the words “i like turtles”?
+grep "i like turtles" [directory]/*
+
+8. How would you get all the results of the previous command into a file?
+[previous command] > file.txt
+
+9. How would you download a webpage from the terminal?
+wget [weblink]
+
+10. How would you see all the commands you’ve previously entered and clear out your previously
+entered commands?
+history ; history -c
+
+11. How would you append text to an existing file?
+echo "some new text" >> file.txt
+
+12. How would you display running processes?
+ps aux
